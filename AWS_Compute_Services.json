@@ -1,0 +1,88 @@
+[
+    {
+        "Index":  1,
+        "Front":  "Describe Amazon EC2 (Elastic Cloud Compute)",
+        "Back":  "Provides secure and resizable virtual servers on AWS.\nProvides resizable compute capacity in the cloud.\nDesigned to make web-scale computing easier for developers."
+    },
+    {
+        "Index":  2,
+        "Front":  "Describe Amazon Elastic Beanstalk",
+        "Back":  "Platform for scaling and deploying web apps and services."
+    },
+    {
+        "Index":  3,
+        "Front":  "Describe AWS Lambda",
+        "Back":  "Enables compute without managing servers."
+    },
+    {
+        "Index":  4,
+        "Front":  "Amazon EC2 Use Cases",
+        "Back":  "Web application hosting.\nBatch processing.\nWeb services endpoint.\nDesktop in the cloud."
+    },
+    {
+        "Index":  5,
+        "Front":  "Describe Amazon EC2 Instance Types",
+        "Back":  "Defines the processor, memory, and storage types.\nCannot be changes without downtime.nProvided in the following categories:\n   General Purpose\n   Computer, memory and storage optimized\n   Accelerated computing\nPricing is based on instance type.\nSome instance types have unique capabilities:\n   GPUs\n   Specialized storage\n   Etc."
+    },
+    {
+        "Index":  6,
+        "Front":  "Describe Amazon EC2 Root Device Types",
+        "Back":  "Instance Store:\n   Ephemeral storage that is physically attached to the host for the virtual server.\n   NOTE: If you shut down an Instance Store server, its storage and data are deleted!\nElastic Block Store:\n   Persistant storage that exists separately from the hsot for the virtual server."
+    },
+    {
+        "Index":  7,
+        "Front":  "Describe Amazon Machine Image (AMI)",
+        "Back":  "Template for an EC2 instance including configuration, operating system, and data.\nAWS provides many AMIs that can be leveraged.\nAMIs can be shared across AWS accounts.\nCustom AMIs can be created based on your configuration.\nCommercial AMIs are available in the AWS Marketplace."
+    },
+    {
+        "Index":  8,
+        "Front":  "What are the purchase types for compute services?",
+        "Back":  "On-Demand\nReserved\nSpot"
+    },
+    {
+        "Index":  9,
+        "Front":  "Describe On-Demand Instances",
+        "Back":  "Pay by the second for instances that are launched."
+    },
+    {
+        "Index":  10,
+        "Front":  "Describe Reserved Instances",
+        "Back":  "Instances purchased for 1-3 years at a discount."
+    },
+    {
+        "Index":  11,
+        "Front":  "Describe Spot Instnaces",
+        "Back":  "Unused EC2 capacity in a region at a large discount.\nCan provide up to 90% discount over on-demand pricing.\nIf your bid is higher than the spot price on the market, your instance will launch.\nIf the market price grows to exceed your bid price, your instance will be terminiated."
+    },
+    {
+        "Index":  12,
+        "Front":  "Reserve Instance Payment Options",
+        "Back":  "All Upfront\n   - Entire cost is paid upfront\n   - Maximum savings over the 1-3 year period.\nPartial Upfront\n   - Part of the 1-3 year cost is paid upfront\n   - Reduced monthly cost.\nNo Upfront\n   - No upfront payment is made.\n   - There will be a reduce montly cost."
+    },
+    {
+        "Index": 13,
+        "Front": "Compute Purchase Option Use Cases",
+        "Back": "Reserved - Great for an instance that is consistent and always needed.\n\nOn-Demand - Great for inconsistent need that cannot be stopped without affecting the job.\n\nSpot - Lowest cost option for workloads that can be stopped/startd without affecting the job."
+    
+    },
+    {
+        "Index": 14,
+        "Front": "Describe Elastic Beanstalk",
+        "Back": "- Automates the process of deploying and scaling workloads on EC2 (Paas)\n\n - Supports a specific set of technologies.\n\n - Leverages existing AWS service.\n\n - Only pay for the other services you leverage.\n\n - Handles provisioning, load balancing, scaling, and monitoring."
+    },
+    {
+        "Index": 15,
+        "Front": "What Application Platforms does AWS Elastic Beanstalk Support?",
+        "Back": " - Java\n\n - .NET\n\n - php\n\n - Node.js\n\n - Python\n\n - Ruby\n\n - Go\n\n - Docker"
+    },
+    {
+        "Index": 16,
+        "Front": "What are the features of AWS Elastic Beanstalk?",
+        "Back": " - Integated monitoring\n - Deployment\n - Scaling\n - EC2 Customization"
+    },
+    {
+        "Index": 17,
+        "Front": "AWS Use Cases",
+        "Back": " - Deploy an application with minimal knowledge of other services\n - Reduce the overall maintenance needed for the application.\n - Few customizations are required."
+    }
+]
